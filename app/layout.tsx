@@ -10,9 +10,9 @@ import { ViewProvider } from "@/contexts/ViewContext";
 const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adeola Badero — Frontend Software Engineer",
+  title: "Sabhya Gupta - Computer Science Student",
   description:
-    "A Frontend Engineer passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+    "An AI & Software Enthusiast passionate about building intelligent systems. I blend creativity with technology to craft seamless digital experiences. Constantly exploring, learning, and turning ideas into reality.",
   keywords: [
     "frontend",
     "react",
@@ -22,16 +22,16 @@ export const metadata: Metadata = {
     "frontend engineer",
     "developer portfolio",
     "creative development",
-    "nigeria",
+    "india",
     "software",
     "software developer",
     "software engineer",
     "portfolio",
   ],
   openGraph: {
-    title: "Adeola Badero — Frontend Software Engineer",
+    title: "Sabhya Gupta - Computer Science Student",
     description:
-      "Frontend Engineer formerly at Bluechip Technologies, passionate about crafting next-gen software and creative websites. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+      "An AI & Software Enthusiast passionate about building intelligent systems. I blend creativity with technology to craft seamless digital experiences. Constantly exploring, learning, and turning ideas into reality.",
     url: "https://www.adeolabadero.me",
     siteName: "www.adeolabadero.me",
     images: [
