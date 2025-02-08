@@ -39,29 +39,29 @@ export default function Header() {
               href="#work"
               className={`${sectionInView === "work" && "text-white"} `}
             >
-              Work
+              Projects
             </Link>
             <Link
               href="#about"
               className={`${sectionInView === "about" && "text-white"} `}
             >
-              About
+              Skills
             </Link>
             <Link
               href="#contact"
               className={`${sectionInView === "contact" && "text-white"} `}
             >
-              Contact
+              Contact Me
             </Link>
           </ul>
           <div className="gap-5 text-xl hidden sm:flex">
-            <Link target="_blank" href="https://linkedin.com/in/adeola-badero">
+            <Link target="_blank" href="https://www.linkedin.com/in/sabhyagupta4xr">
               <Icon icon="hugeicons:linkedin-01" />
             </Link>
-            <Link target="_blank" href="https://github.com/adex-hub">
+            <Link target="_blank" href="https://github.com/SABHYAGUPTA5XR">
               <Icon icon="hugeicons:github" />
             </Link>
-            <Link target="_blank" href="https://x.com/Ade_the_great">
+            <Link target="_blank" href="https://x.com/sabhyagupta4xr">
               <Icon icon="akar-icons:x-fill" />
             </Link>
           </div>

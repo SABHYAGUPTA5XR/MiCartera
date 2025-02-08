@@ -11,6 +11,10 @@ const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sabhya Gupta - Computer Science Student",
+  icons: [
+    { rel: "icon", type: "image/png", url: "/S-logo-final.png" },
+    { rel: "shortcut icon", type: "image/x-icon", url: "/favicon.ico" },
+  ],
   description:
     "An AI & Software Enthusiast passionate about building intelligent systems. I blend creativity with technology to craft seamless digital experiences. Constantly exploring, learning, and turning ideas into reality.",
   keywords: [
