@@ -73,7 +73,7 @@ export default function Hero() {
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
           <p className="text-white/60 text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6">
-            Hey, there
+            Hola Hola!
           </p>
           <motion.div
             animate={handWaveAnimation}
@@ -81,9 +81,9 @@ export default function Hero() {
             className="col-span-3"
           >
             <Image
-              src="/hand-wave.svg"
-              width={30}
-              height={30}
+              src="/handWave.svg"
+              width={35}
+              height={40}
               alt="hand-waving"
             />
           </motion.div>
@@ -95,9 +95,9 @@ export default function Hero() {
         >
           <p className="text-white/60 inline">I&apos;m </p>
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-            Adeola Badero
+            Sabhya Gupta
           </span>
-          <p>a Software Engineer</p>
+          <p>a CSE Student</p>
         </motion.h1>
 
         <motion.p
@@ -105,12 +105,12 @@ export default function Hero() {
           animate={animateIn2}
           className="text-white/40  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
         >
-          currently focused on building user experiences that drive growth.
+          currently exploring AI, research and making ideas come to life.
         </motion.p>
       </div>
 
       {/* IMAGE */}
-      <div data-blobity-tooltip="Soft man">
+      <div data-blobity-tooltip="That's Me">
         <motion.div
           ref={imgRef}
           style={{ rotate }}
@@ -119,11 +119,11 @@ export default function Hero() {
           animate={animateIn1}
         >
           <Image
-            src="/transparent-ade-min.png"
+            src="/profilePic.png"
             priority
             fill
-            alt="Ade's picture"
-            className="bg-image-radial px-10 pt-20"
+            alt="Sabhya's picture"
+            className="bg-image-radial px-0 pt-0"
           />
         </motion.div>
       </div>
