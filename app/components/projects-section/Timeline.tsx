@@ -7,50 +7,40 @@ const syne = Syne({ subsets: ["latin"] });
 
 const TimelineData = [
   {
-    companyImg: "/bluechip.svg",
-    jobTitle: "Software Engineer",
-    company: "Bluechip Technologies",
-    jobType: "Internship",
-    duration: "Mar 2024 - Sept 2024",
+    companyImg: "/ecellvitvellore_logo.jpg",
+    jobTitle: "Tech Executive",
+    company: "Entrepreneurship Cell, VIT Vellore",
+    jobType: "CLub",
+    duration: "July 2024 - Present",
     stuffIDid: [
-      "Developed fully responsive sidebars for an API marketplace web app utilizing ChakraUI for context menus, mobile drawer menus, and modals to simplify adding, viewing, updating, and deleting data.",
-      "Built a reusable table component that reduced code by 15%, improving code efficiency and maintainability.",
-      "Collaborated with a senior frontend engineer to develop various application screens, streamlining development and collaboration using GitHub",
-      "Worked on a Learning Management System fixing bugs on the frontend while adding and improving features in tandem with the backend developer using Bootsrap and React Bootstrap to streamline component styling.",
-      "Integrated seven endpoints in the Role Based Access Control (RBAC) module of a Revenue Assurance application ensuring CRUD operations could be easily performed by the admin.",
-      "Developed HTML Templates for partner companies including the financial firm KPMG.",
+      "Currently involved in E-SUMMIT '25, working on the next generation of event tech solutions to enhance the digital experience for participants.",
+      "Worked as part of the tech team on the FUTUREPRENEURS 10.0 website, contributing to a robust and user-friendly platform that delivered a seamless experience for attendees and sponsors, leading to 2000+ registrations and 50 final teams.",
+      "Expanded my expertise in Git version control, frontend development, and event-based web technologies under the mentorship of the Technical Head",
+      "Gained hands-on experience in full-stack web development, working with frontend frameworks, APIs, routing, databases, and deployment to build scalable event platforms.",
     ],
   },
   {
-    companyImg: "/nnpc.svg",
-    jobTitle: "Intern",
-    company: "NNPC",
-    jobType: "Internship",
-    duration: "July 2023 - Sept. 2023",
+    companyImg: "/vitlogowhite.png",
+    jobTitle: "B.Tech CSE Student",
+    company: "VIT Vellore",
+    jobType: "Student",
+    duration: "August 2023 - Present",
     stuffIDid: [
-      "Came up with cross functional login & sign up page designs that are now integral parts of the tools used within the company.",
-      "Led a team of fellow interns to design various templates and UI components common in internal applications such as dashboards, notification tabs, multi-step forms, tables with pagination etc. while making very impactful contributions.",
-      "I also helped interns grasp the basics of design enabling them to make meaningful contributions.",
-    ],
-  },
-  {
-    companyImg: "/nnpc.svg",
-    jobTitle: "Intern",
-    company: "NNPC",
-    jobType: "Internship",
-    duration: "July 2023 - Sept. 2023",
-    stuffIDid: [
-      "Came up with cross functional login & sign up page designs that are now integral parts of the tools used within the company.",
-      "Led a team of fellow interns to design various templates and UI components common in internal applications such as dashboards, notification tabs, multi-step forms, tables with pagination etc. while making very impactful contributions.",
-      "I also helped interns grasp the basics of design enabling them to make meaningful contributions.",
-    ],
+      "Maintaining a 9.6 CGPA, demonstrating consistency and excellence in academic coursework.",
+      "Developing a strong foundation in Computer Science with a focus on AI, software development, and research.",
+      "Gaining hands-on experience in full-stack development, algorithms, and machine learning.",
+      "Working on real-world projects, including an AI-powered chess commentary system and MS LAMP 2, a mass spectrometry-based lipid analysis platform.",
+      "Actively participating in the Entrepreneurship Cell as a Tech Executive, contributing to major event websites.",
+      "Exploring various technologies such as Next.js, Flask, TensorFlow, and cloud deployment."
+    ]
+    ,
   },
 ];
 
 export default function Timeline() {
   return (
     <div className="mt-10 md:mt-[110px]">
-      <Title> Work experience</Title>
+      <Title>experience & education</Title>
 
       {/* THE THING, AFTER WHICH I WOULD DETERMINE THE HEIGHT */}
       <div className="flex mt-6 gap-4 pl-3">
