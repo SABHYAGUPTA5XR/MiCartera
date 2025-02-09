@@ -6,11 +6,6 @@
   position: relative;
 }
 
-/* .timeline ul li::marker {
-  content: "▸ ";
-  color: #ffffff60;
-} */
-
 .timeline ul li::before {
   content: "▸ ";
   position: absolute;

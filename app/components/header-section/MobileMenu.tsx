@@ -29,16 +29,16 @@ export default function MobileMenu({
           Home
         </Link>
         <Link
-          href="#work"
-          className={`${sectionInView === "work" && "text-white"} w-fit`}
+          href="#projects"
+          className={`${sectionInView === "projects" && "text-white"} w-fit`}
         >
-          Work
+          Projects
         </Link>
         <Link
-          href="#about"
-          className={`${sectionInView === "about" && "text-white"} w-fit`}
+          href="#skills"
+          className={`${sectionInView === "skills" && "text-white"} w-fit`}
         >
-          About
+          Skills
         </Link>
         <Link
           href="#contact"
@@ -46,13 +46,21 @@ export default function MobileMenu({
         >
           Contact
         </Link>
+
+        <Link
+          href="#mystory"
+          className={`${sectionInView === "mystory" && "text-white"}  w-fit`}
+        >
+          My Story
+        </Link>
+
       </ul>
 
       <div className="flex flex-col gap-3 z-20 items-center justify-center">
         <Link
           className="p-4 flex-1 flex justify-center w-full rounded-xl h-fit text-4xl visited:bg-[#E3D3BE] bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
           target="_blank"
-          href="https://linkedin.com/in/adeola-badero"
+          href="https://www.linkedin.com/in/sabhyagupta4xr"
           data-blobity-radius="10"
         >
           <Icon icon="hugeicons:linkedin-01" />
@@ -62,7 +70,7 @@ export default function MobileMenu({
           <Link
             className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
             target="_blank"
-            href="https://github.com/adex-hub"
+            href="https://github.com/SABHYAGUPTA5XR"
             data-blobity-radius="10"
           >
             <Icon icon="hugeicons:github" />
@@ -70,11 +78,21 @@ export default function MobileMenu({
           <Link
             className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
             target="_blank"
-            href="https://x.com/Ade_the_great"
+            href="https://instagram.com/sabhyagupta4xr"
+            data-blobity-radius="10"
+          >
+            <Icon icon="hugeicons:instagram" />
+          </Link>
+
+          <Link
+            className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
+            target="_blank"
+            href="https://x.com/sabhyagupta4xr"
             data-blobity-radius="10"
           >
             <Icon icon="akar-icons:x-fill" />
           </Link>
+
         </div>
       </div>
     </motion.div>

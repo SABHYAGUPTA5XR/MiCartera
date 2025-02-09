@@ -33,6 +33,18 @@ const TimelineData = [
       "I also helped interns grasp the basics of design enabling them to make meaningful contributions.",
     ],
   },
+  {
+    companyImg: "/nnpc.svg",
+    jobTitle: "Intern",
+    company: "NNPC",
+    jobType: "Internship",
+    duration: "July 2023 - Sept. 2023",
+    stuffIDid: [
+      "Came up with cross functional login & sign up page designs that are now integral parts of the tools used within the company.",
+      "Led a team of fellow interns to design various templates and UI components common in internal applications such as dashboards, notification tabs, multi-step forms, tables with pagination etc. while making very impactful contributions.",
+      "I also helped interns grasp the basics of design enabling them to make meaningful contributions.",
+    ],
+  },
 ];
 
 export default function Timeline() {

@@ -36,14 +36,14 @@ export default function Header() {
               Home
             </Link>
             <Link
-              href="#work"
-              className={`${sectionInView === "work" && "text-white"} `}
+              href="#projects"
+              className={`${sectionInView === "projects" && "text-white"} `}
             >
               Projects
             </Link>
             <Link
-              href="#about"
-              className={`${sectionInView === "about" && "text-white"} `}
+              href="#skills"
+              className={`${sectionInView === "skills" && "text-white"} `}
             >
               Skills
             </Link>
@@ -51,7 +51,13 @@ export default function Header() {
               href="#contact"
               className={`${sectionInView === "contact" && "text-white"} `}
             >
-              Contact Me
+              Contact
+            </Link>
+            <Link
+              href="#mystory"
+              className={`${sectionInView === "mystory" && "text-white"} `}
+            >
+              My Story
             </Link>
           </ul>
           <div className="gap-5 text-xl hidden sm:flex">
@@ -61,9 +67,13 @@ export default function Header() {
             <Link target="_blank" href="https://github.com/SABHYAGUPTA5XR">
               <Icon icon="hugeicons:github" />
             </Link>
+            <Link target="_blank" href="https://instagram.com/sabhyagupta4xr">
+              <Icon icon="hugeicons:instagram" />
+            </Link>
             <Link target="_blank" href="https://x.com/sabhyagupta4xr">
               <Icon icon="akar-icons:x-fill" />
             </Link>
+
           </div>
         </div>
       </div>
