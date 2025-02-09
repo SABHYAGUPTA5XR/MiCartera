@@ -20,7 +20,7 @@ export default function FolioCard({
   img: string;
   title: string;
   gitLink?: string;
-  liveLink: string;
+  liveLink?: string;
   about: string;
   stack: string[];
 }) {
@@ -51,14 +51,20 @@ export default function FolioCard({
           </h2>
           <div className="flex gap-3 md:gap-4 text-2xl sm:text-3xl xl:text-4xl">
             <Link
-              href={liveLink}
+              href={`${liveLink ? liveLink : "#"}`}
               className="rounded-full bg-icon-radial p-3 hover:bg-red"
               target="_blank"
               aria-label="View Github Repo"
               data-blobity-radius="34"
               data-blobity-magnetic="true"
+              {...(!liveLink && {
+                "data-blobity-tooltip": "Under Development",
+              })}
             >
-              <Icon icon="line-md:external-link-rounded" />
+              <Icon 
+              icon="line-md:external-link-rounded"
+              className={`${!liveLink && "opacity-30"}`} 
+              />
             </Link>
             <Link
               href={`${gitLink ? gitLink : "#"}`}
@@ -68,7 +74,7 @@ export default function FolioCard({
               data-blobity-radius="34"
               data-blobity-magnetic="true"
               {...(!gitLink && {
-                "data-blobity-tooltip": "Privately owned by Offset",
+                "data-blobity-tooltip": "Not Available",
               })}
             >
               <Icon
