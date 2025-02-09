@@ -36,20 +36,20 @@ export const metadata: Metadata = {
     title: "Sabhya Gupta - Computer Science Student",
     description:
       "An AI & Software Enthusiast passionate about building intelligent systems. I blend creativity with technology to craft seamless digital experiences. Constantly exploring, learning, and turning ideas into reality.",
-    url: "https://www.adeolabadero.me",
-    siteName: "www.adeolabadero.me",
+    url: "https://CHANGE_ME_LATER",
+    siteName: "www.changemelater.com",
     images: [
       {
-        url: "https://i.ibb.co/FKMqc28/adeola-badero.png",
+        url: "https://i.ibb.co/BKH80gdV/logo-Banner.png",
         width: 1200,
         height: 630,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Sabhya Gupta - Computer Science Student",
       },
       {
-        url: "https://i.ibb.co/Y8hBTR4/ade-800.png",
+        url: "https://i.ibb.co/zTRtf76z/logo-Layout.png",
         width: 800,
         height: 800,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Sabhya Gupta - Computer Science Student",
       },
     ],
     locale: "en-US",
@@ -57,11 +57,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adeola Badero — Software Engineer",
+    title: "Sabhya Gupta - Computer Science Student",
     description:
-      "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    creator: "@Ade_the_great",
-    images: ["https://i.ibb.co/FKMqc28/adeola-badero.png"],
+      "An AI & Software Enthusiast passionate about building intelligent systems. I blend creativity with technology to craft seamless digital experiences. Constantly exploring, learning, and turning ideas into reality.",
+    creator: "@sabhyagupta4xr",
+    images: ["https://i.ibb.co/BKH80gdV/logo-Banner.png"],
   },
   robots: {
     index: true,
