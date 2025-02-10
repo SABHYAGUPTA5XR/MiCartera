@@ -28,7 +28,7 @@ function NotFound() {
         href="/"
         className={`text-2xl font-semibold px-3 py-2 uppercase ${syne.className} hover:bg-white hover:text-[#08233b] duration-300 rounded-xl border-2 border-white leading-none`}
       >
-        Come back home
+        Come Back To Home
       </Link>
     </main>
   );

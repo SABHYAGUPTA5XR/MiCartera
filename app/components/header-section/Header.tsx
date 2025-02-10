@@ -30,31 +30,31 @@ export default function Header() {
 
           <ul className="hidden sm:flex gap-8 lg:gap-12 text-white/25">
             <Link
-              href="#home"
+              href="/#home"
               className={`${sectionInView === "home" && "text-white"} `}
             >
               Home
             </Link>
             <Link
-              href="#projects"
+              href="/#projects"
               className={`${sectionInView === "projects" && "text-white"} `}
             >
               Projects
             </Link>
             <Link
-              href="#skills"
+              href="/#skills"
               className={`${sectionInView === "skills" && "text-white"} `}
             >
               Skills
             </Link>
             <Link
-              href="#contact"
+              href="/#contact"
               className={`${sectionInView === "contact" && "text-white"} `}
             >
               Contact
             </Link>
             <Link
-              href="#mystory"
+              href="/my-story"
               className={`${sectionInView === "mystory" && "text-white"} `}
             >
               My Story
