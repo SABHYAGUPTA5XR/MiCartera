@@ -8,7 +8,7 @@ import AnimatedTitle from "../ui/AnimatedTitle";
 
 const syne = Syne({ subsets: ["latin"] });
 
-export default function About() {
+export default function Skills() {
   const { setSectionInView } = useView();
 
   const { ref, inView } = useInView({
@@ -21,7 +21,7 @@ export default function About() {
   }, [inView, setSectionInView]);
 
   return (
-    <section ref={ref} className="pt-24 md:pt-[150px]" id="about">
+    <section ref={ref} className="pt-24 md:pt-[150px]" id="skills">
       <AnimatedTitle
         wordSpace={"mr-[14px]"}
         charSpace={"mr-[0.001em]"}
@@ -69,11 +69,10 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              Frontend Tools
+              Programming Languages
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript(ES6+), React, Next.js, TypeScript, Redux, Redux
-              Toolkit, React Query, HTML5, Git/GitHub, React Hook Form, Formik.
+              Python, JavaScript(ES7+), C, C++, R
             </AnimatedBody>
           </div>
           <div>
@@ -82,11 +81,10 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              UI Libraries
+              Web Technologies
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              CSS3/SCSS/SASS, Tailwind CSS, Styled Components, Chakra UI, Framer
-              Motion, Bootstrap, ReCharts.
+              HTML5, CSS, TailwindCSS, ReactJS, NextJS, MongoDB, MySQL, Git, GitHub
             </AnimatedBody>
           </div>
           <div>
@@ -95,12 +93,25 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              Design Tools
+              AI Technologies
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Figma, FigJam, UX Research, UI Design, Prototyping.
+              TensorFlow, PyTorch, OpenCV, NumPy, Pandas, Scikit-Learn, DeepSeek, OPENAI API
             </AnimatedBody>
           </div>
+          <div>
+            <AnimatedTitle
+              wordSpace={"mr-[0.5ch]"}
+              charSpace={"mr-[0.001em]"}
+              className="font-bold antialiased text-xl md:text-2xl mb-2"
+            >
+              Deployment & Design
+            </AnimatedTitle>
+            <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+              Vercel, Netlify, Render, Figma, Canva, Adobe Firefly 
+            </AnimatedBody>
+          </div>
+          
         </div>
       </div>
     </section>
