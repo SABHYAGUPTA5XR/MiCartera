@@ -93,21 +93,18 @@ export default function Contact() {
         ref={ref}
         id="contact"
         style={{
-          transform: `${
-            formDisplay
+          transform: `${formDisplay
               ? "perspective(300px) rotateY(-180deg)"
               : "perspective(300px) rotateY(-360deg)"
-          }`,
+            }`,
         }}
         className={`overflow-y-hidden card mt-12 sm:mt-16 md:mt-[100px] px-6 py-4 md:py-10 lg:py-12 flex flex-col lg:items-center lg:flex-row justify-between rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f]`}
       >
         {!formDisplay ? (
           <div
-            className={` ${
-              syne.className
-            } flex justify-between items-center w-full duration-1000 ${
-              formDisplay && "opacity-0"
-            }`}
+            className={` ${syne.className
+              } flex justify-between items-center w-full duration-1000 ${formDisplay && "opacity-0"
+              }`}
           >
             <div className="inline w-full">
               <AnimatedTitle
@@ -117,13 +114,14 @@ export default function Contact() {
               >
                 GOT IDEAS? LET&apos;S BUILD SOMETHING GREAT!
               </AnimatedTitle>
+
               <Link href="#footer" data-no-blobity>
                 <span
                   data-blobity
                   onClick={() => {
                     setFormDisplay(!formDisplay);
                   }}
-                  className="sm:mt-0 text-xl sm:text-2xl md:text-[32px] w-fit underline lg:text-[40px] font-bold leading-tight hidden sm:block lg:hidden"
+                  className=" sm:mt-0 text-xl sm:text-2xl md:text-[32px] w-fit underline lg:text-[40px] font-bold leading-tight hidden sm:block lg:hidden"
                 >
                   CONTACT&nbsp;ME
                 </span>
@@ -131,19 +129,18 @@ export default function Contact() {
             </div>
             <Link href="#footer">
               <button
-                className={`text-base ml-auto mt-6 lg:mt-0 lg:ml-0 block sm:hidden lg:block lg:text-2xl font-semibold px-4 py-2 md:px-3 lg:py-4 rounded-xl border-2 border-white leading-none ${
-                  viewCount <= 1 && "duration-500 delay-[1500ms]"
-                } ${
-                  inView
+                className={`text-base ml-auto mt-6 lg:mt-0 lg:ml-0 block sm:hidden lg:block lg:text-2xl font-semibold px-4 py-2 md:px-3 lg:py-4 rounded-xl border-2 border-white leading-none ${viewCount <= 1 && "duration-500 delay-[1500ms]"
+                  } ${inView
                     ? " opacity-100 translate-y-0"
                     : "opacity-0 translate-y-16"
-                }`}
+                  }`}
                 data-blobity-radius="12"
                 onClick={() => {
                   setFormDisplay(!formDisplay);
                 }}
               >
-                CONTACT&nbsp;ME
+                <span className="mobile-small:hidden">CONTACT&nbsp;ME</span>
+  <span className="mobile-small:block hidden">CONTACT</span>
               </button>
             </Link>
           </div>
@@ -155,11 +152,10 @@ export default function Contact() {
               transition={{ duration: 1, delay: 0.2 }}
               exit={{ opacity: 0 }}
               style={{
-                transform: `${
-                  formDisplay
+                transform: `${formDisplay
                     ? "perspective(300px) rotateY(-180deg)"
                     : "perspective(300px) rotateY(0deg)"
-                }`,
+                  }`,
               }}
               className="w-full"
             >

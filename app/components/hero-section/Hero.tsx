@@ -83,7 +83,7 @@ export default function Hero() {
             <Image
               src="/handWave.svg"
               width={35}
-              height={40}
+              height={35}
               alt="hand-waving"
             />
           </motion.div>

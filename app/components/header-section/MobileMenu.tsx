@@ -10,7 +10,7 @@ export default function MobileMenu({
   onMenuOpen: React.Dispatch<SetStateAction<boolean>>;
 }) {
   const { sectionInView } = useView();
-
+  console.log(sectionInView);
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -57,6 +57,7 @@ export default function MobileMenu({
       </ul>
 
       <div className="flex flex-col gap-3 z-20 items-center justify-center">
+
         <Link
           className="p-4 flex-1 flex justify-center w-full rounded-xl h-fit text-4xl visited:bg-[#E3D3BE] bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
           target="_blank"
@@ -65,7 +66,6 @@ export default function MobileMenu({
         >
           <Icon icon="hugeicons:linkedin-01" />
         </Link>
-
         <div className="flex gap-3 w-full">
           <Link
             className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
@@ -84,6 +84,8 @@ export default function MobileMenu({
             <Icon icon="hugeicons:instagram" />
           </Link>
 
+
+        </div>
           <Link
             className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
             target="_blank"
@@ -92,8 +94,6 @@ export default function MobileMenu({
           >
             <Icon icon="akar-icons:x-fill" />
           </Link>
-
-        </div>
       </div>
     </motion.div>
   );

@@ -52,6 +52,18 @@ body {
   }
 }
 
+@media (max-width: 320px) {
+  .mobile-small\:block {
+    display: block !important;
+  }
+  .mobile-small\:hidden {
+    display: none !important;
+  }
+}
+
+
+
+
 /* CARD ANIMATIONS */
 .card {
   transition: transform 1s;
