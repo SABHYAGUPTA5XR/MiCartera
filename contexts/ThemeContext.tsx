@@ -21,7 +21,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     } else {
       document.body.classList.add(theme);
     }
-  }, [theme]);
+  }, []);
 
   useEffect(() => {
     // List all theme classes that might be applied
