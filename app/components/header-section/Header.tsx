@@ -7,6 +7,7 @@ import { useState } from "react";
 import MobileMenu from "./MobileMenu";
 import { AnimatePresence, motion } from "framer-motion";
 
+
 export default function Header() {
   const { sectionInView } = useView();
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
@@ -73,7 +74,7 @@ export default function Header() {
             <Link target="_blank" href="https://x.com/sabhyagupta4xr">
               <Icon icon="akar-icons:x-fill" />
             </Link>
-
+            {/* THEME SWITCHER BUTTON */}
           </div>
         </div>
       </div>

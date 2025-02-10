@@ -91,3 +91,123 @@ body {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
+
+/* Cyberpunk Theme */
+.theme-cyberpunk {
+  background: #0D0D0D;
+  color: #FF0090;
+  overscroll-behavior: none;
+}
+
+.theme-cyberpunk::-webkit-scrollbar {
+  width: 10px;
+  background-color: #00FFE1;
+}
+
+.theme-cyberpunk::-webkit-scrollbar-thumb {
+  background-color: #8A2BE2;
+  border-radius: 5px;
+}
+
+/* Default theme*/
+.theme-default {
+  background: #08233b;
+  color: white;
+  overscroll-behavior: none;
+}
+
+.theme-default::-webkit-scrollbar {
+  width: 10px;
+  background-color: #d9d9d91f;
+}
+
+.theme-default::-webkit-scrollbar-thumb {
+  background-color: #3c84c7;
+  border-radius: 5px;
+}
+
+
+/* Forest Theme */
+.theme-forest {
+  background: #022003;
+  color: #F1F8E9;
+  overscroll-behavior: none;
+}
+
+.theme-forest::-webkit-scrollbar {
+  width: 10px;
+  background-color: #66BB6A;
+}
+
+.theme-forest::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+/* Mountain Theme */
+.theme-mountain {
+  background: #455A64;
+  color: #ECEFF1;
+  overscroll-behavior: none;
+}
+
+.theme-mountain::-webkit-scrollbar {
+  width: 10px;
+  background-color: #CFD8DC;
+}
+
+.theme-mountain::-webkit-scrollbar-thumb {
+  background-color: #263238;
+  border-radius: 5px;
+}
+
+/* Ocean Theme */
+.theme-ocean {
+  background: #01579B;
+  color: #eac872;
+  overscroll-behavior: none;
+}
+
+.theme-ocean::-webkit-scrollbar {
+  width: 10px;
+  background-color: #4edad0;
+}
+
+.theme-ocean::-webkit-scrollbar-thumb {
+  background-color: #f5dfc4;
+  border-radius: 5px;
+}
+
+/* Sunset Theme */
+.theme-sunset {
+  background: #2D1E2F;
+  color: #FF6E40;
+  overscroll-behavior: none;
+}
+
+.theme-sunset::-webkit-scrollbar {
+  width: 10px;
+  background-color: #FF8A65;
+}
+
+.theme-sunset::-webkit-scrollbar-thumb {
+  background-color: #f5dfc4;
+  border-radius: 5px;
+}
+
+/* Desert Theme */
+.theme-desert {
+  background: #743e179c;
+  color: #FBE8D3;
+  overscroll-behavior: none;
+}
+
+.theme-desert::-webkit-scrollbar {
+  width: 10px;
+  background-color: #E2B6A9;
+}
+
+.theme-desert::-webkit-scrollbar-thumb {
+  background-color: #4E342E;
+  border-radius: 5px;
+}
