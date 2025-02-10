@@ -23,33 +23,33 @@ export default function MobileMenu({
         onClick={() => onMenuOpen(false)}
       >
         <Link
-          href="#home"
+          href="/#home"
           className={`${sectionInView === "home" && "text-white"} w-fit`}
         >
           Home
         </Link>
         <Link
-          href="#projects"
+          href="/#projects"
           className={`${sectionInView === "projects" && "text-white"} w-fit`}
         >
           Projects
         </Link>
         <Link
-          href="#skills"
+          href="/#skills"
           className={`${sectionInView === "skills" && "text-white"} w-fit`}
         >
           Skills
         </Link>
         <Link
-          href="#contact"
+          href="/#contact"
           className={`${sectionInView === "contact" && "text-white"}  w-fit`}
         >
           Contact
         </Link>
 
         <Link
-          href="#mystory"
-          className={`${sectionInView === "mystory" && "text-white"}  w-fit`}
+          href="/my-story"
+          className={`${sectionInView === "my-story" && "text-white"}  w-fit`}
         >
           My Story
         </Link>

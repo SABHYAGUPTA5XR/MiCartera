@@ -4,11 +4,10 @@ import Projects from "./components/projects-section/Projects";
 import Skills from "./components/skills-section/Skills";
 import Contact from "./components/contact+footer/Contact";
 import Footer from "./components/contact+footer/Footer";
-import { initialBlobityOptions } from "@/utils/blobity.config";
-import useBlobity from "blobity/lib/react/useBlobity";
+
 
 export default function Home() {
-  const blobity = useBlobity(initialBlobityOptions);
+
 
   return (
     <main className="overflow-x-hidden sm:overflow-x-visible">

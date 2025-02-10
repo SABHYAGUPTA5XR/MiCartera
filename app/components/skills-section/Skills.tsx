@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Link from "next/link";
 import { Syne } from "next/font/google";
 import { useView } from "@/contexts/ViewContext";
 import { useInView } from "react-intersection-observer";
@@ -17,7 +16,7 @@ export default function Skills() {
   });
 
   useEffect(() => {
-    if (inView) setSectionInView("about");
+    if (inView) setSectionInView("skills");
   }, [inView, setSectionInView]);
 
   return (

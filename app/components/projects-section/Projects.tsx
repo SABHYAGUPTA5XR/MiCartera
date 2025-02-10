@@ -63,7 +63,7 @@ export default function Projects() {
   });
 
   useEffect(() => {
-    if (inView) setSectionInView("work");
+    if (inView) setSectionInView("projects");
   }, [inView, setSectionInView]);
 
   return (

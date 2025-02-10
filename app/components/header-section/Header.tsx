@@ -55,7 +55,7 @@ export default function Header() {
             </Link>
             <Link
               href="/my-story"
-              className={`${sectionInView === "mystory" && "text-white"} `}
+              className={`${sectionInView === "my-story" && "text-white"} `}
             >
               My Story
             </Link>
