@@ -1,8 +1,9 @@
+"use client";
+
 import { useView } from "@/contexts/ViewContext";
-import { Icon } from "@iconify/react/dist/iconify.js";
-import { Link } from "react-scroll";
 import React from "react";
-import ThemeSwitcher from "../ThemeSwitcher";
+import ThemeSwitcher from "../ThemeSwitcher"; // Import our new theme switcher component
+
 const curYear = new Date().getFullYear();
 
 export default function Footer() {
@@ -11,28 +12,14 @@ export default function Footer() {
   return (
     <section
       id="footer"
-      className="my-6 sm:my-8 text-sm sm:text-base lg:text-lg flex md:justify-between justify-center"
+      className="my-6 sm:my-8 text-sm sm:text-base lg:text-lg flex flex-col md:flex-row items-center justify-between px-4"
     >
-      <p>
-        <span className="text-xl sm:text-2xl">&copy;</span> {curYear} . SABHYA GUPTA . ALL RIGHTS RESERVED
-      </p>
-      {/* <Link
-        className="md:flex hidden items-center gap-1 leading-tight"
-        to="home"
-        smooth={true}
-        spy={true}
-        duration={500}
-        href="#home"
-        data-blobity-offset-x="2"
-        data-blobity-offset-y="0"
-      // onClick={() => setSectionInView("home")}
-      >
-        <Icon icon="mdi:arrow-top" className="text-2xl rounded-2xlt" />
-        <p className="underline leading-tight">SCROLL TO TOP</p>
-      </Link> */}
       <div>
         <ThemeSwitcher />
       </div>
+      <p className="mb-2 md:mb-0 text-center">
+        <span className="text-xl sm:text-2xl">&copy;</span> {curYear} . SABHYA GUPTA . ALL RIGHTS RESERVED
+      </p>
     </section>
   );
 }
